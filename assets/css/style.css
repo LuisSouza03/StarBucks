@@ -9,6 +9,7 @@
     --color-Bg: #E8E9EE;
     --color-border: #999999;
     --color-border-Green: #454545;
+    --color-Pink: #E8E9EE;
 }
 
 /*Inicio*/
@@ -232,7 +233,7 @@ header .line {
 
 .area3--text {
     margin-bottom: 60px;
-    line-height: 25px;s
+    line-height: 25px;
 }
 
 .area3--img1 {
@@ -241,3 +242,25 @@ header .line {
     background-position: center;
 }
 
+/* ===============
+[Area 4] */
+
+.area4 {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: var(--color-Pink);
+}
+
+.area4--content {
+    padding: 150px 80px;
+}
+
+.area4--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4--img1 {
+    background-image: url(../img/bg3.jpg);
+    background-position: left;
+}
