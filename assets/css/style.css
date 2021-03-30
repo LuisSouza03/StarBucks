@@ -10,6 +10,7 @@
     --color-border: #999999;
     --color-border-Green: #454545;
     --color-Pink: #E8E9EE;
+    --color-footer: #333;
 }
 
 /*Inicio*/
@@ -263,4 +264,24 @@ header .line {
 .area4--img1 {
     background-image: url(../img/bg3.jpg);
     background-position: left;
+}
+
+/* ===============
+[Area 5] */
+
+.area5 {
+    background-image: url(../img/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+/* ===============
+[Footer] */
+
+footer {
+    background-color: var(--color-footer);
+    color: #fff;
+    padding: 80px;
+    text-align: center;
 }
